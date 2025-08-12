@@ -46,7 +46,7 @@ try:
         })
         client.publish(MQTT_TOPIC, payload)
         print(f"Published: {payload}")
-        time.sleep(10)  # Publish every 5 seconds
+        time.sleep(10)  # Publish every 10 seconds
 
 except KeyboardInterrupt:
     print("Script stopped by user")
